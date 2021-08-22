@@ -1,0 +1,16 @@
+{
+  "projectId": "yt3cj1",
+  "baseUrl": "https://react-redux.realworld.io",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "reporterEnabled": "mochaawesome",
+      "mochawesomeReporterOptions": {
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      }
+    }
+
+}
